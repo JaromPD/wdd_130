@@ -1,31 +1,10 @@
-#content{
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
 nav a{
     text-align: center;
-}
-
-#hero-msg h1{
-    text-align: center;
-}
-
-#hero-msg h4{
-    text-align: center;
-}
-
-.button-box{
-    text-align: center;
+    color: red;
 }
 
 main section{
     text-align: center;
-}
-
-#background{
-    height: 725px;
-    background-color: blue;
 }
 
 body{
@@ -38,6 +17,45 @@ header{
 
 nav a:hover{
     background-color: blue;
+    color: red;
+}
+
+footer{
+    background-color: blue;    
+}
+
+footer a{
+    color: red;
+}
+
+footer a:hover{
+    columns: red;
+}
+
+h4{
+    color: red;
+}
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#hero-msg h1{
+    text-align: center;
+}
+
+#hero-msg h4{
+    text-align: center;
+}
+
+#background{
+    height: 725px;
+    background-color: blue;
+}
+
+.button-box{
+    text-align: center;
 }
 
 .book{
@@ -46,6 +64,7 @@ nav a:hover{
 
 .book:hover{
     background-color: blue;
+    color: red;
 }
 
 .join{
@@ -54,12 +73,21 @@ nav a:hover{
 
 .join:hover{
     background-color: blue;
+    columns: red;
 }
 
 .msg{
     background-color: blue;
 }
 
-footer{
-    background-color: blue;    
+.msg h2{
+    color: red;
+}
+
+.msg p{
+    color: red;
+}
+
+.home-title{
+    columns: red;
 }
