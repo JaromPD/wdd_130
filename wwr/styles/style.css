@@ -1,6 +1,12 @@
 nav a{
     text-align: center;
-    color: red;
+    color: #f8e1dd;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #f8e1dd;
+    color: #0f1a20;
 }
 
 main section{
@@ -8,32 +14,37 @@ main section{
 }
 
 body{
-    background-color: blue;
+    background-color: #f3f6f7;
 }
 
 header{
-    background-color: blue;
-}
-
-nav a:hover{
-    background-color: blue;
-    color: red;
+    background-color: #5b2333;
 }
 
 footer{
-    background-color: blue;    
+    background-color: #5b2333;    
 }
 
 footer a{
-    color: red;
+    color: #f8e1dd;
+    text-decoration: none;
 }
 
 footer a:hover{
-    columns: red;
+    color: #6B8289;
+}
+
+footer p{
+    font-size: 1.2em;
+    color: #f8e1dd;
+}
+
+footer p a:hover{
+    text-decoration: underline;
 }
 
 h4{
-    color: red;
+    color: #12202B;
 }
 
 #content{
@@ -49,9 +60,13 @@ h4{
     text-align: center;
 }
 
+#hero-img{
+    width: 100%;
+}
+
 #background{
     height: 725px;
-    background-color: blue;
+    background-color: #C2D1D6;
 }
 
 .button-box{
@@ -59,35 +74,47 @@ h4{
 }
 
 .book{
-    background-color: blue;
+    background-color: #12202B;
+    color: #F3F6F7;
+    text-decoration: none;
 }
 
 .book:hover{
-    background-color: blue;
-    color: red;
+    background-color: #F3F6F7;
+    color: #12202B;
 }
 
 .join{
-    background-color: blue;
+    background-color: #B6C8CE;
+    color:#12202B;
+    text-decoration: none;
 }
 
 .join:hover{
-    background-color: blue;
-    columns: red;
+    background-color: #12202B;
+    color: #B6C8CE;
 }
 
 .msg{
-    background-color: blue;
+    background-color: #6B8289;
 }
 
 .msg h2{
-    color: red;
+    color: #12202B;
 }
 
 .msg p{
-    color: red;
+    color: white;
 }
 
 .home-title{
-    columns: red;
+    color: #12202B;
+}
+
+.logo{
+    width: 80px;    
+}
+
+.icon{
+    width: 80px;
 }
