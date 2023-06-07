@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap');
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 16% 16% 16% 16% 16% 16% ;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    grid-column: 2/4;
+    grid-row: 1;
+    font-family: 'Lato';
+    font-weight: 900;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 200px;
+    color: #676766;
+}
+
+p{
+    grid-column: 2/4;
+    grid-row: 2;
+    text-align: center;
+    font-size: 12px;
+    color: #676766;
+}
+
+img{
+    grid-column: 0/1;
+    width: 100% ;
+    grid-row: 1/6;
+}
+
+#email{
+    grid-column: 2/4;
+    grid-row: 3;
+}
+
+#name{
+    grid-column: 2/4;
+    grid-row: 4;
+}
+
+#check{
+    grid-column: 2/4;
+    grid-row: 5;
+    width: 15px;
+}
+
+#check_text{
+    grid-column: 2/4;
+    grid-row: 5;
+    text-align: left;
+    padding-top: 16px;
+    padding-left: 25px;
+}
+
+#button{
+    grid-column: 2/4;
+    grid-template-columns: 6;
+}
