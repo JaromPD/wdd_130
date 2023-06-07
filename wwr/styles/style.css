@@ -7,6 +7,10 @@
   --paragraph-font: Roboto, Nunito, "Source Sans Pro";
 }
 
+img{
+    width: 50%;
+}
+
 header{
     display: grid;
     grid-template-columns: 150px auto;
