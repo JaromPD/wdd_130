@@ -265,14 +265,13 @@ h4{
 
 .faq-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  
 }
 
 #faq-background{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr .25fr 1fr 1fr;
-    grid-template-rows: 3.5% 20%;  
+    grid-template-rows: 140px 50px 0px 450px 40px 420px 40px 300px 40px 820px 40px 520px 40px;
 }
 
 #faq-background-img{
@@ -281,33 +280,71 @@ h4{
     background-position: 200%;
     grid-column: 1/6;
     grid-row: 1/3;
+    z-index: -1;
 }
 
 .faq-box{
     background-color: rgba(107, 130, 137, .8);
-    margin-top: 50px;
-    margin-left: 50px;
 }
 
-.faq-box p{
+.faq-box h1{
 color: white;
 text-align: center;
 font-family: Arvo;
-font-size: 1.7em;
+font-size: 35px;
+margin: 35px;
 z-index: 1;
+}
+
+.faq-box p{
+    color: white;
+    font-family: roboto;
+    margin: 25px;
 }
 
 #title-box{
     z-index: 1;
     grid-column: 1/3;
     grid-row: 1/1;
+    margin-left: 30px;
+    margin-top: 30px;
 }
 
 #FAQ-1{
-    grid-column: 1/3;
-    grid-row: 2/3;
+    grid-column: 1/4;
+    grid-row: 3/6;
+    margin-left: 30px;
 }
 
+#FAQ-2{
+    grid-column: 3/6;
+    grid-row: 5/8;
+    margin-right: 30px;
+}
+
+#FAQ-3{
+    grid-column: 1/4;
+    grid-row: 7/10;
+    margin-left: 30px;
+}
+
+#FAQ-4{
+    grid-column: 3/6;
+    grid-row: 9/12;
+    margin-right: 30px;
+}
+
+#FAQ-5{
+    grid-column: 1/4;
+    grid-row: 11/14;
+    margin-left: 30px;
+}
+
+#FAQ-6{
+    grid-column: 3/6;
+    grid-row: 13/16;
+    margin-right: 30px;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
