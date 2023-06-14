@@ -271,7 +271,7 @@ h4{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr .25fr 1fr 1fr;
-    grid-template-rows: 140px 50px 0px 450px 40px 420px 40px 300px 40px 820px 40px 520px 40px;
+    grid-template-rows: 140px 50px 0px 450px 30px 370px 40px 270px 40px 720px 40px 460px 30px;
 }
 
 #faq-background-img{
