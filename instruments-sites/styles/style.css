@@ -140,3 +140,64 @@ footer p{
 footer p a:hover{
     text-decoration: underline;
 }
+
+.review_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+.review_box{
+width: 600px;
+height: 600px;
+margin: 20px;
+display: grid;
+column-gap: 20px;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+background-color: #F7E1B6;
+}
+
+.review_box .customer_photo{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    object-fit: cover;
+    grid-template-columns: 1/1;
+    grid-template-rows: 1/1;
+}
+
+.review_box .stars{
+    width: 200px;
+    margin-top: 20px;
+    grid-column: 2/3;
+    grid-row: 1;
+}
+
+.review_box .review_info{
+padding-top: 60px;
+grid-column: 2/3;
+grid-row: 1/3;
+font-size: 20px;
+font-family: Archivo;
+}
+
+.review_box h1{
+font-family: "IM Fell French Canon SC";
+font-size: 30px;
+margin-left: 30px;
+margin-top: 0px;
+padding: 0px;
+grid-column: 1/3;
+grid-row: 2;
+}
+
+.review_box p{
+font-family: "Archivo";
+margin-top: 50px;
+margin-right: 20px;
+font-size: 20px;
+font-weight: 100;
+}
+
