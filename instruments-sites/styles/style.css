@@ -164,8 +164,8 @@ background-color: #F7E1B6;
     height: 300px;
     margin: 20px;
     object-fit: cover;
-    grid-template-columns: 1/1;
-    grid-template-rows: 1/1;
+    grid-column: 1/1;
+    grid-row: 1/1;
 }
 
 .review_box .stars{
@@ -217,7 +217,7 @@ font-weight: 100;
 .guide_box img{
     height: 100%;
     width: 100%;
-    grid-column: 0/1;
+    grid-column: 1;
     grid-row: 1/3;
 }
 
